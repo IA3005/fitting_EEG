@@ -15,7 +15,7 @@ df = {'13':40, '17':35, '21':50, 'rest':23} #degrees of freedom for each class
 n_jobs = -1
 save_file = True 
 plot_cdf = True
-path="C:/Users/Imen Ayadi/OneDrive - CentraleSupelec/Bureau/thèse/journal paper/jmva_paper_code-main/fitting results seed=123/"
+path=""
 np.random.seed(123)
     
 #1. Load the dataset
