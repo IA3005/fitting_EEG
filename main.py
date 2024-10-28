@@ -13,9 +13,9 @@ selected_subjs = [12] #list of selected subjects from the twelve subjects of the
 quantity_to_fit = "trace" #change if you want to fit other quantity (see "fitting.py" for more details)
 df = {'13':40, '17':35, '21':50, 'rest':23} #degrees of freedom for each class
 n_jobs = -1
-save_file = True 
+save_file = False 
 plot_cdf = True
-path=""
+path="./"
 np.random.seed(123)
     
 #1. Load the dataset
